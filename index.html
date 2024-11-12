@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Desconto Especial - Precificação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #2a2a2a;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .price-old {
+            font-size: 20px;
+            color: #ff0000;
+            text-decoration: line-through;
+        }
+
+        .price-new {
+            font-size: 28px;
+            color: #007500;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: #007500;
+            font-weight: bold;
+        }
+
+        .button-container {
+            margin: 30px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .button:hover {
+            box-shadow: 0px 4px 15px rgba(0, 128, 0, 0.5);
+        }
+
+        .button:active {
+            transform: scale(0.95);
+        }
+
+        .pulse {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Não feche ou atualize essa página!</h1>
+    <p>Parabéns, você acaba de ativar um desconto especial em nossa última oferta!</p>
+    <p class="price-old">De R$ 47,00</p>
+    <p class="price-new">Por apenas R$ 29,00</p>
+    <p>Poucas vezes alguém tem a oportunidade de ter acesso a nossa calculadora automática por esse valor extraordinário.</p>
+    <p>Ativando esse cupom agora, essa é a última chance de adquirir o método por esse preço, após sair daqui a oferta volta para o preço normal de <span class="price-old">R$ 47,00</span>.</p>
+    <p>Ou seja, se você está pensando em rejeitar essa oferta, você está declinando <span class="highlight">R$ 18,00 de desconto + bônus exclusivos</span>.</p>
+
+    <div class="button-container">
+        <a href="https://pay.kirvano.com/95139dfa-4d0f-40b0-b276-f74c43f3abfc" class="button pulse">Sim, eu aceito o desconto especial</a>
+    </div>
+
+    <p>Chegou a hora de mudar o rumo do seu supermercado, se tornando uma loja lucrativa…</p>
+    <p>E agora, com um preço inimaginável!</p>
+    <p><span class="highlight">R$ 18,00 de desconto + Bônus Exclusivos + 7 dias de teste.</span></p>
+    <p class="price-new">Por apenas R$ 29,00</p>
+
+    <div class="button-container">
+        <a href="https://pay.kirvano.com/95139dfa-4d0f-40b0-b276-f74c43f3abfc" class="button pulse">Sim, eu aceito o desconto especial</a>
+    </div>
+
+</body>
+</html>
